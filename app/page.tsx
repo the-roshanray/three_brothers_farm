@@ -121,18 +121,14 @@ export default function Home() {
               {/* Logo and Brand Name with 3B Circle */}
               <div className="mt-6 flex items-center gap-4">
                 {/* 3B Circle Logo */}
-                <div className="flex h-20 w-20 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-amber-600 to-amber-800 text-white shadow-lg ring-4 ring-amber-200/50 transition-all duration-300 hover:scale-105 hover:ring-amber-300">
-                  <span className="text-2xl font-black tracking-tight">3B</span>
-                </div>
-                
-                <div>
-                  <h1 className="text-4xl font-extrabold leading-tight text-stone-900 sm:text-5xl lg:text-6xl xl:text-7xl">
-                    Three Brothers
-                    <span className="block bg-gradient-to-r from-amber-600 to-amber-800 bg-clip-text text-transparent">
-                      Farm
-                    </span>
-                  </h1>
-                </div>
+                 <div className="flex items-center justify-center">
+              <h3
+                className="whitespace-nowrap text-3xl font-extrabold tracking-wide bg-gradient-to-r from-amber-700 to-amber-900 bg-clip-text text-transparent"
+                style={{ fontFamily: "'Playfair Display', serif" }}
+              >
+                Three Brothers Farm
+              </h3>
+            </div>
               </div>
 
               <p className="mt-5 max-w-xl text-base leading-relaxed text-stone-600 sm:text-lg">
